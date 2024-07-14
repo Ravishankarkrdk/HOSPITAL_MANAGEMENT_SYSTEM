@@ -122,11 +122,11 @@ def clear():
     patientid.set('')
     nhsnumbers.set('')
     patientname.set('')
-    nhsnumbers.set('')
-    patientname.set('')
-    dateofbirth.set('')
-    patientaddress.set('')
-    txt_frame.delete(1.0,END)
+    # nhsnumbers.set('')
+    # patientname.set('')
+    # dateofbirth.set('')
+    # patientaddress.set('')
+    # txt_frame.delete(1.0,END)
 
 #===================Exits Button================================
 def exit():
@@ -144,7 +144,7 @@ frame1.place(x=0,y=54,width=1280,height=310)
 
 #label frame for patient info.
 lf1 =LabelFrame(frame1,text='Patient Information',font='ariel 10 bold',bd=10)
-lf1.place(x=10,y=0,width=750,height=280)
+# lf1.place(x=10,y=0,width=750,height=280)
 #labels for patient information
 Label(lf1,text='Name of Tablets').place(x=5,y=10)
 Label(lf1,text='Reference').place(x=5,y=36)
@@ -225,7 +225,7 @@ e18.place(x=500,y=218,width=200)
 
 #label frame for prescription
 lf2 =LabelFrame(frame1,text='Prescription',font='ariel 12 bold',bd=10)
-lf2.place(x=770,y=0,width=470,height=280)
+# lf2.place(x=770,y=0,width=470,height=280)
 
 #text box for prescription
 txt_frame =Text(lf2,font='impacK 10 bold',width=40,height=30,bg='white')
